@@ -5,7 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 export default function Footer() {
   return (
     <FooterContainer>
-      <span>Copyright &copy; 2021 Travelo. All rights reserved</span>
+      <span>Copyright &copy; 2021 Travelo. All rights reserved <br/> Design and Coded by 13.5coder</span>
       <ul className="links">
         <li>
           <a href="#hero">Home</a>
@@ -37,11 +37,11 @@ export default function Footer() {
 
 const FooterContainer = styled.footer`
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   background-color: #d0d8ff;
   border-radius: 0.5rem;
-  padding: 2.5rem;
-
+  padding: 1.5rem 0;
   ul {
     display: flex;
     list-style-type: none;

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import avatarImage from "../assets/avatarImage.jpeg";
+import profileImage from "../assets/profile----.png";
 export default function Testimonials() {
   return (
     <Section id="testimonials">
@@ -14,9 +14,9 @@ export default function Testimonials() {
             asperiores eaque.
           </p>
           <div className="info">
-            <img src={avatarImage} alt="" />
+            <img src={profileImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
+              <h4>13.5coder</h4>
               <span>CEO - Shashaan Web Solutions</span>
             </div>
           </div>
@@ -27,9 +27,9 @@ export default function Testimonials() {
             asperiores eaque.
           </p>
           <div className="info">
-            <img src={avatarImage} alt="" />
+            <img src={profileImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
+              <h4>13.5coder</h4>
               <span>CEO - Shashaan Web Solutions</span>
             </div>
           </div>
@@ -40,9 +40,9 @@ export default function Testimonials() {
             asperiores eaque.
           </p>
           <div className="info">
-            <img src={avatarImage} alt="" />
+            <img src={profileImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
+              <h4>13.5coder</h4>
               <span>CEO - Shashaan Web Solutions</span>
             </div>
           </div>
@@ -75,7 +75,6 @@ const Section = styled.section`
       }
       .info {
         display: flex;
-        justify-content: center;
         gap: 1rem;
         align-items: center;
         margin-top: 1rem;
